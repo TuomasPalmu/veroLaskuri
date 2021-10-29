@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Linkataan tyylittely -->
+    <link rel="stylesheet" href="styles.css">
+    <title>Verolaskuri</title>
+</head>
+<body>
+    <h1>Verolaskuri</h1>
+    <form>
+        <!-- Luodaan asiat tiedon syöttöä varten ja annetaan niille tunnukset -->
+        <input type="number" id="palkka" min="0" placeholder="Palkka"></br>
+        <input type="number" id="veroPros" min="0" placeholder="Veroprosentti"></br>
+        <input type="button" id="lähetä" value="Lähetä"><input type="button" id="lataa" value="Näytä kaikki"><input type="button" id="poistaKaikki" value="Tyhjennä Muisti"></br>
+        <input type="checkbox" id="kirkkoVero">Oletko osa kirkkoa?</br>
+    </form>
+    <section class="taulukko">
+
+    </section>
+
+    <!-- Linkataan scripti -->
+    <script src="scripts.js"></script>
+</body>
+</html>
